@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+	.investor-logo {
+		max-height: 65px;
+		width: 65px;
+	}
+
+	.web-name {
+		font-size: smaller;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.investor-logo {
+		max-height: 85px;
+		min-width: 85px;
+	}
+}
+
+.investor-logo {
+	margin: 10px 10px 10px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.margin-top25 {
+	margin-top: 25px;
+}
+
+.web-name {
+	color: #eee !important;
+}
