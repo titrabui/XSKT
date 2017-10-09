@@ -9,11 +9,11 @@ class Model_User extends \Orm\Model_Nestedset
 		'username',
 		'password',
 		'group',
-		'status'
+		'status',
 		'email',
 		'last_login',
 		'login_hash',
-		'balance'
+		'balance',
 		'profile_fields',
 		'created_at',
 		'updated_at',
