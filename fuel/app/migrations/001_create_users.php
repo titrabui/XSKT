@@ -7,23 +7,21 @@ class Create_users
 	public function up()
 	{
 		\DBUtil::create_table('users', array(
-			'id' => array('constraint' => 11, 'type' => 'int', 'auto_increment' => true, 'unsigned' => true),
-			'left_id' => array('constraint' => 11, 'type' => 'int', 'unsigned' => true),
-			'right_id' => array('constraint' => 11, 'type' => 'int', 'unsigned' => true),
-			'username' => array('constraint' => 50, 'type' => 'varchar'),
-			'password' => array('constraint' => 50, 'type' => 'varchar'),
-			'group' => array('constraint' => 11, 'type' => 'int', 'default' => 1),
-			'status' => array('constraint' => 1, 'type' => 'tinyint'),
-			'email' => array('constraint' => 255, 'type' => 'varchar'),
-			'last_login' => array('constraint' => 25, 'type' => 'varchar'),
-			'login_hash' => array('constraint' => 255, 'type' => 'varchar'),
+			'id' => array('type' => 'int', 'constraint' => 11, 'auto_increment' => true),
+			'username' => array('type' => 'varchar', 'constraint' => 50),
+			'password' => array('type' => 'varchar', 'constraint' => 255),
+			'group' => array('type' => 'int', 'constraint' => 11, 'default' => 1),
+			'email' => array('type' => 'varchar', 'constraint' => 255),
+			'last_login' => array('type' => 'varchar', 'constraint' => 25),
+			'login_hash' => array('type' => 'varchar', 'constraint' => 255),
 			'balance' => array('constraint' => 11, 'type' => 'int', 'null' => true, 'unsigned' => true, 'default' => 0),
 			'profile_fields' => array('type' => 'text'),
-			'created_at' => array('constraint' => 11, 'type' => 'int', 'unsigned' => true),
-			'updated_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
-			'deleted_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
-
+			'created_at' => array('type' => 'int', 'constraint' => 11, 'default' => 0),
+			'updated_at' => array('type' => 'int', 'constraint' => 11, 'default' => 0),
 		), array('id'));
+
+		// add a unique index on username and email
+		\DBUtil::create_index('users', array('username', 'email'), 'username', 'UNIQUE');
 	}
 
 	public function down()

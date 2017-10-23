@@ -4,12 +4,9 @@ class Model_User extends \Orm\Model_Nestedset
 {
 	protected static $_properties = array(
 		'id',
-		'left_id',
-		'left_id',
 		'username',
 		'password',
 		'group',
-		'status',
 		'email',
 		'last_login',
 		'login_hash',

@@ -32,6 +32,7 @@
 			'Administrators' => '100',
 			'Moderators' => '50',
 			'Users' => '1',
+			'Banned' => '-1',
 		);
 	}
 
