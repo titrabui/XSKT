@@ -28,6 +28,9 @@ class Controller_Login extends Controller_Base
 
 		if ($user = \Auth::validate_user(\Input::post('username'), \Input::post('password')))
 		{
+			if ($user['group'] == \Constants::$user_group['Banned'])
+				return $this->error_response('This user is banned. Login failed');
+
 			$issue_time = time();
 			$token = array(
 				"iss" => 'http://sgtvt-bkdn.com',

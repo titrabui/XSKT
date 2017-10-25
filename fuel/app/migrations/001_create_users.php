@@ -16,8 +16,8 @@ class Create_users
 			'login_hash' => array('type' => 'varchar', 'constraint' => 255),
 			'balance' => array('constraint' => 11, 'type' => 'int', 'null' => true, 'unsigned' => true, 'default' => 0),
 			'profile_fields' => array('type' => 'text'),
-			'created_at' => array('type' => 'int', 'constraint' => 11, 'default' => 0),
-			'updated_at' => array('type' => 'int', 'constraint' => 11, 'default' => 0),
+			'created_at' => array('type' => 'int', 'constraint' => 11, 'null' => true),
+			'updated_at' => array('type' => 'int', 'constraint' => 11, 'null' => true),
 		), array('id'));
 
 		// add a unique index on username and email

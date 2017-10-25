@@ -26,5 +26,4 @@ class Model_Tree extends \Orm\Model_Nestedset
 		'tree_field'     => 'tree_id',		// name of the tree node tree index field
 		'user_field'     => 'user_id',		// name of the tree node user index field
 	);
-
 }

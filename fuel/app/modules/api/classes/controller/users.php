@@ -26,7 +26,7 @@ class Controller_Users extends Controller_Base {
 			if (is_null($id))
 			{
 				$users = \Model_User::query()
-					->select('id', 'username', 'group', 'email', 'profile_fields', 'last_login')
+					->select('id', 'username', 'group', 'email', 'balance', 'profile_fields', 'last_login')
 					->from_cache(false)
 					->get();
 			}
@@ -36,7 +36,7 @@ class Controller_Users extends Controller_Base {
 					return $this->error_response("User #.$id. is not exist");
 
 				$users = \Model_User::query()
-					->select('id', 'username', 'group', 'email', 'profile_fields', 'last_login')
+					->select('id', 'username', 'group', 'email', 'balance', 'profile_fields', 'last_login')
 					->where('id', $id)
 					->from_cache(false)
 					->get();
@@ -126,23 +126,16 @@ class Controller_Users extends Controller_Base {
 			if (\Input::post('old_password') == \Input::post('password'))
 				return $this->error_response('new_password and old_password must be different');
 
-			if (\Auth::validate_user($user['username'], \Input::post('old_password')))
+			if (\Auth::change_password(
+				\Input::post('old_password'),
+				\Input::post('password'),
+				$user['username']))
 			{
-				if (\Auth::change_password(
-					\Input::post('old_password'),
-					\Input::post('password'),
-					$user['username']))
-				{
-					return $this->success_response();
-				}
-				else
-				{
-					return $this->error_response('Change password failed');
-				}
+				return $this->success_response();
 			}
 			else
 			{
-				return $this->error_response('old_password is wrong');
+				return $this->error_response('Change password failed');
 			}
 		}
 		catch (\Exception $e)

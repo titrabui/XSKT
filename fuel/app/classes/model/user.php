@@ -1,6 +1,6 @@
 <?php
 
-class Model_User extends \Orm\Model_Nestedset
+class Model_User extends \Orm\Model
 {
 	protected static $_properties = array(
 		'id',
@@ -13,8 +13,7 @@ class Model_User extends \Orm\Model_Nestedset
 		'balance',
 		'profile_fields',
 		'created_at',
-		'updated_at',
-		'deleted_at',
+		'updated_at'
 	);
 
 	protected static $_observers = array(
@@ -94,12 +93,12 @@ class Model_User extends \Orm\Model_Nestedset
 
 			case 'ApiUserModifyPass':
 				$val->add('old_password', 'old_password')
+					->add_rule('valid_string', array('alpha','numeric'))
 					->add_rule('required_with', 'password')
 					->add_rule('max_length', 255);
 				$val->add('password', 'password')
 					->add_rule('required_with', 'old_password')
 					->add_rule('valid_string', array('alpha','numeric'))
-					->add_rule('match_value', \Input::post('password2'), true)
 					->add_rule('max_length', 255);
 				break;
 			default:
