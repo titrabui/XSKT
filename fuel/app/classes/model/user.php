@@ -29,6 +29,16 @@ class Model_User extends \Orm\Model
 
 	protected static $_table_name = 'users';
 
+	protected static $_has_one = array(
+	    'tree' => array(
+	        'key_from' => 'id',
+	        'model_to' => 'Model_Tree',
+	        'key_to' => 'user_id',
+	        'cascade_save' => true,
+	        'cascade_delete' => true,
+	    )
+	);
+
 	public static function validate($factory , $param = array())
 	{
 		$val = Validation::forge($factory);
