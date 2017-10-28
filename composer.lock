@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25cbf2308918f775e251cffcf914c557",
-    "content-hash": "a9efe46743688d5b1f2f64de7f780195",
+    "hash": "1103fcc28ce470622607851ae7b05811",
+    "content-hash": "26e75e627e1bf79a04b6a1d2f3e81b41",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,22 +109,23 @@
         },
         {
             "name": "fuel/auth",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/auth.git",
-                "reference": "a645dbe2f80b6b4cecb069b57ea70150b6e53929"
+                "reference": "83969c3c932edc94d973ca40f1567459b84c4523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/auth/zipball/a645dbe2f80b6b4cecb069b57ea70150b6e53929",
-                "reference": "a645dbe2f80b6b4cecb069b57ea70150b6e53929",
+                "url": "https://api.github.com/repos/fuel/auth/zipball/83969c3c932edc94d973ca40f1567459b84c4523",
+                "reference": "83969c3c932edc94d973ca40f1567459b84c4523",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -136,30 +137,27 @@
             ],
             "description": "FuelPHP 1.x Auth Package",
             "homepage": "https://github.com/fuel/auth",
-            "support": {
-                "source": "https://github.com/fuel/auth/tree/1.8/develop",
-                "issues": "https://github.com/fuel/auth/issues"
-            },
-            "time": "2016-01-23 12:30:25"
+            "time": "2016-10-20 18:12:06"
         },
         {
             "name": "fuel/core",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/core.git",
-                "reference": "26f6432a9f41659280c70ba47c16170adf1e7611"
+                "reference": "c8e190b22cb9fc1a9acfdde4ed7487e04051bbe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/core/zipball/26f6432a9f41659280c70ba47c16170adf1e7611",
-                "reference": "26f6432a9f41659280c70ba47c16170adf1e7611",
+                "url": "https://api.github.com/repos/fuel/core/zipball/c8e190b22cb9fc1a9acfdde4ed7487e04051bbe7",
+                "reference": "c8e190b22cb9fc1a9acfdde4ed7487e04051bbe7",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -171,30 +169,27 @@
             ],
             "description": "FuelPHP 1.x Core",
             "homepage": "https://github.com/fuel/core",
-            "support": {
-                "source": "https://github.com/fuel/core/tree/1.8/master",
-                "issues": "https://github.com/fuel/core/issues"
-            },
-            "time": "2016-04-09 16:28:31"
+            "time": "2016-07-21 08:45:05"
         },
         {
             "name": "fuel/email",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/email.git",
-                "reference": "79133b3951068bbcff9a9c7b77f9f27a777ebdbd"
+                "reference": "2eab3974e4c38b9fea0a7ebbad3d4e1f20076448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/email/zipball/79133b3951068bbcff9a9c7b77f9f27a777ebdbd",
-                "reference": "79133b3951068bbcff9a9c7b77f9f27a777ebdbd",
+                "url": "https://api.github.com/repos/fuel/email/zipball/2eab3974e4c38b9fea0a7ebbad3d4e1f20076448",
+                "reference": "2eab3974e4c38b9fea0a7ebbad3d4e1f20076448",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -206,30 +201,27 @@
             ],
             "description": "FuelPHP 1.x Email Package",
             "homepage": "https://github.com/fuel/email",
-            "support": {
-                "source": "https://github.com/fuel/email/tree/1.8/develop",
-                "issues": "https://github.com/fuel/email/issues"
-            },
-            "time": "2016-01-23 12:31:34"
+            "time": "2016-10-04 15:21:48"
         },
         {
             "name": "fuel/oil",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/oil.git",
-                "reference": "b29b80f29f090b9ad12b931da6e979587de6ced1"
+                "reference": "84ea18b9e39c3c0d31681dd2cf92fbf81b6ed90f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/oil/zipball/b29b80f29f090b9ad12b931da6e979587de6ced1",
-                "reference": "b29b80f29f090b9ad12b931da6e979587de6ced1",
+                "url": "https://api.github.com/repos/fuel/oil/zipball/84ea18b9e39c3c0d31681dd2cf92fbf81b6ed90f",
+                "reference": "84ea18b9e39c3c0d31681dd2cf92fbf81b6ed90f",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -241,30 +233,27 @@
             ],
             "description": "FuelPHP 1.x Oil Package",
             "homepage": "https://github.com/fuel/oil",
-            "support": {
-                "source": "https://github.com/fuel/oil/tree/1.8/develop",
-                "issues": "https://github.com/fuel/oil/issues"
-            },
-            "time": "2016-01-23 12:32:54"
+            "time": "2016-10-05 13:32:41"
         },
         {
             "name": "fuel/orm",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/orm.git",
-                "reference": "2c1da635127c9fbedc9c76132fc904188892c365"
+                "reference": "69cd98cfed4d8e34b176d87b73a35b98703235be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/orm/zipball/2c1da635127c9fbedc9c76132fc904188892c365",
-                "reference": "2c1da635127c9fbedc9c76132fc904188892c365",
+                "url": "https://api.github.com/repos/fuel/orm/zipball/69cd98cfed4d8e34b176d87b73a35b98703235be",
+                "reference": "69cd98cfed4d8e34b176d87b73a35b98703235be",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -276,30 +265,27 @@
             ],
             "description": "FuelPHP 1.x ORM Package",
             "homepage": "https://github.com/fuel/orm",
-            "support": {
-                "source": "https://github.com/fuel/orm/tree/1.8/develop",
-                "issues": "https://github.com/fuel/orm/issues"
-            },
-            "time": "2016-02-07 12:09:12"
+            "time": "2016-05-22 14:52:35"
         },
         {
             "name": "fuel/parser",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/parser.git",
-                "reference": "bec50ec304e696d72dba7f13494828532c6e18df"
+                "reference": "e647c56566ddc439801ae966821f37dc35a3c5bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/parser/zipball/bec50ec304e696d72dba7f13494828532c6e18df",
-                "reference": "bec50ec304e696d72dba7f13494828532c6e18df",
+                "url": "https://api.github.com/repos/fuel/parser/zipball/e647c56566ddc439801ae966821f37dc35a3c5bb",
+                "reference": "e647c56566ddc439801ae966821f37dc35a3c5bb",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -311,11 +297,7 @@
             ],
             "description": "FuelPHP 1.x Parser Package",
             "homepage": "https://github.com/fuel/parser",
-            "support": {
-                "source": "https://github.com/fuel/parser/tree/1.8/develop",
-                "issues": "https://github.com/fuel/parser/issues"
-            },
-            "time": "2016-03-12 12:08:41"
+            "time": "2017-01-12 17:26:53"
         },
         {
             "name": "fuelphp/upload",
@@ -366,6 +348,245 @@
                 "upload"
             ],
             "time": "2015-11-04 17:19:56"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-06-22 18:50:49"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20 10:07:11"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-03-20 17:10:46"
+        },
+        {
+            "name": "lcobucci/jwt",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "0b5930be73582369e10c4d4bb7a12bac927a203c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/0b5930be73582369e10c4d4bb7a12bac927a203c",
+                "reference": "0b5930be73582369e10c4d4bb7a12bac927a203c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "mdanter/ecc": "~0.3.1",
+                "mikey179/vfsstream": "~1.5",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/php-invoker": "~1.1",
+                "phpunit/phpunit": "~4.5",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "suggest": {
+                "mdanter/ecc": "Required to use Elliptic Curves based algorithms."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lcobucci\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+            "keywords": [
+                "JWS",
+                "jwt"
+            ],
+            "time": "2017-09-01 08:23:26"
         },
         {
             "name": "michelf/php-markdown",
@@ -481,6 +702,219 @@
             "time": "2013-04-23 10:09:48"
         },
         {
+            "name": "nexmo/client",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nexmo/nexmo-php.git",
+                "reference": "0a17af601a3249dfe78381e4d9684ad5ea844188"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/0a17af601a3249dfe78381e4d9684ad5ea844188",
+                "reference": "0a17af601a3249dfe78381e4d9684ad5ea844188",
+                "shasum": ""
+            },
+            "require": {
+                "lcobucci/jwt": "^3.2",
+                "php": ">=5.6",
+                "php-http/client-implementation": "^1.0",
+                "php-http/guzzle6-adapter": "^1.0",
+                "zendframework/zend-diactoros": "^1.3"
+            },
+            "require-dev": {
+                "estahn/phpunit-json-assertions": "@stable",
+                "php-http/mock-client": "^0.3.0",
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nexmo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Lytle",
+                    "email": "tim@nexmo.com",
+                    "homepage": "http://twitter.com/tjlytle",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Client for using Nexmo's API.",
+            "time": "2017-10-17 11:40:41"
+        },
+        {
+            "name": "php-http/guzzle6-adapter",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/guzzle6-adapter.git",
+                "reference": "a56941f9dc6110409cfcddc91546ee97039277ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/guzzle6-adapter/zipball/a56941f9dc6110409cfcddc91546ee97039277ab",
+                "reference": "a56941f9dc6110409cfcddc91546ee97039277ab",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": ">=5.5.0",
+                "php-http/httplug": "^1.0"
+            },
+            "provide": {
+                "php-http/async-client-implementation": "1.0",
+                "php-http/client-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "php-http/adapter-integration-tests": "^0.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Adapter\\Guzzle6\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                },
+                {
+                    "name": "David de Boer",
+                    "email": "david@ddeboer.nl"
+                }
+            ],
+            "description": "Guzzle 6 HTTP Adapter",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "Guzzle",
+                "http"
+            ],
+            "time": "2016-05-10 06:13:32"
+        },
+        {
+            "name": "php-http/httplug",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/httplug.git",
+                "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+                "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "php-http/promise": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "^1.0",
+                "phpspec/phpspec": "^2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric GELOEN",
+                    "email": "geloen.eric@gmail.com"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "HTTPlug, the HTTP client abstraction for PHP",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "client",
+                "http"
+            ],
+            "time": "2016-08-31 08:30:17"
+        },
+        {
+            "name": "php-http/promise",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/promise.git",
+                "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/dc494cdc9d7160b9a09bd5573272195242ce7980",
+                "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980",
+                "shasum": ""
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "^1.0",
+                "phpspec/phpspec": "^2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Promise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                },
+                {
+                    "name": "Joel Wurtz",
+                    "email": "joel.wurtz@gmail.com"
+                }
+            ],
+            "description": "Promise used for asynchronous HTTP requests",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-01-26 13:27:02"
+        },
+        {
             "name": "phpseclib/phpseclib",
             "version": "2.0.0",
             "source": {
@@ -569,6 +1003,56 @@
             "time": "2015-08-04 04:48:03"
         },
         {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -605,27 +1089,80 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "zendframework/zend-diactoros",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-diactoros.git",
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/c8664b92a6d5bc229e48b0923486c097e45a7877",
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "phpunit/phpunit": "^5.7.16 || ^6.0.8",
+                "zendframework/zend-coding-standard": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev",
+                    "dev-develop": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/zendframework/zend-diactoros",
+            "keywords": [
+                "http",
+                "psr",
+                "psr-7"
+            ],
+            "time": "2017-10-12 15:24:51"
         }
     ],
     "packages-dev": [
         {
             "name": "fuel/docs",
-            "version": "dev-1.8/master",
+            "version": "1.8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fuel/docs.git",
-                "reference": "d16972d39cef5f936779fca83bb19037cc2a3140"
+                "reference": "4e9d8448fed580ab8e7d59206e99c340387f7dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fuel/docs/zipball/d16972d39cef5f936779fca83bb19037cc2a3140",
-                "reference": "d16972d39cef5f936779fca83bb19037cc2a3140",
+                "url": "https://api.github.com/repos/fuel/docs/zipball/4e9d8448fed580ab8e7d59206e99c340387f7dd9",
+                "reference": "4e9d8448fed580ab8e7d59206e99c340387f7dd9",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -637,24 +1174,12 @@
             ],
             "description": "FuelPHP 1.x Documenataion",
             "homepage": "https://github.com/fuel/docs",
-            "support": {
-                "source": "https://github.com/fuel/docs/tree/1.8/master",
-                "issues": "https://github.com/fuel/docs/issues"
-            },
-            "time": "2016-04-09 11:48:09"
+            "time": "2017-01-15 17:46:37"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "fuel/core": 20,
-        "fuel/auth": 20,
-        "fuel/email": 20,
-        "fuel/oil": 20,
-        "fuel/orm": 20,
-        "fuel/parser": 20,
-        "fuel/docs": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
