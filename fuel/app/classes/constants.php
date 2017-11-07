@@ -34,5 +34,10 @@
 			'Users' => '1',
 			'Banned' => '-1',
 		);
+
+		public static $nexmo = array(
+			'api_key' => 'bfcaca0b',
+			'api_secret' => 'dddd95167ad69c7f',
+		);
 	}
 

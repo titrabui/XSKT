@@ -5,7 +5,6 @@ class Model_Customer extends \Orm\Model
 	protected static $_properties = array(
 		'id',
 		'user_id',
-		'verify_code',
 		'imei',
 		'balance',
 		'status',

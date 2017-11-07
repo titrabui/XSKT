@@ -9,7 +9,6 @@ class Create_customers
 		\DBUtil::create_table('customers', array(
 			'id' => array('constraint' => 11, 'type' => 'int', 'auto_increment' => true, 'unsigned' => true),
 			'user_id' => array('constraint' => 11, 'type' => 'int'),
-			'verify_code' => array('constraint' => 25, 'type' => 'varchar'),
 			'imei' => array('constraint' => 50, 'type' => 'varchar'),
 			'balance' => array('constraint' => 11, 'type' => 'int', 'unsigned' => true, 'default' => 0),
 			'status' => array('constraint' => 2, 'type' => 'tinyint'),

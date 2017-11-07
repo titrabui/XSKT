@@ -84,7 +84,7 @@ class Controller_Base extends \Controller_Rest
 	{
 		return $this->response(array(
 			'status' => 'Success',
-			'data'  => array_values($response_data)
+			'data' => is_array($response_data) ? array_values($response_data) : $response_data
 		), 200);
 	}
 
@@ -106,40 +106,13 @@ class Controller_Base extends \Controller_Rest
 	}
 
 	/**
-	 * The AccuWeather get function.
+	 * The generate random verify code function.
 	 *
 	 * @access  protected
 	 * @return  string
 	 */
-	// protected function get_accu_weather()
-	// {
-	// 	$curl = curl_init();
-
-	// 	curl_setopt_array($curl, array(
-	// 		CURLOPT_URL            => "http://apidev.accuweather.com/currentconditions/v1/352954.json?language=en&apikey=hoArfRosT1215",
-	// 		CURLOPT_RETURNTRANSFER => true,
-	// 		CURLOPT_ENCODING       => "",
-	// 		CURLOPT_MAXREDIRS      => 10,
-	// 		CURLOPT_TIMEOUT        => 30,
-	// 		CURLOPT_HTTP_VERSION   => CURL_HTTP_VERSION_1_1,
-	// 		CURLOPT_CUSTOMREQUEST  => "GET",
-	// 		CURLOPT_HTTPHEADER     => array(
-	// 			"cache-control: no-cache",
-	// 			"content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
-	// 			"postman-token: 44db737a-edfa-373e-17ac-2dbe035685f1"
-	// 		),
-	// 		)
-	// 	);
-
-	// 	$response = curl_exec($curl);
-	// 	$err = curl_error($curl);
-
-	// 	curl_close($curl);
-
-	// 	if ($err) return 'Get weather failed,24';
-
-	// 	$json = substr($response, 1, -1);
-	// 	$result = json_decode($json, true);
-	// 	return $result['WeatherText'].','.$result['WeatherIcon'];
-	// }
+	protected function random_verify_code()
+	{
+		return \Str::random('numeric', 4);
+	}
 }
